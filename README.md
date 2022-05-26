@@ -48,10 +48,6 @@ cat << EOF > ~/.aws/credentials
 aws_access_key_id = $ACCESSKEY
 aws_secret_access_key = $SECRETKEY
 
-[refine-]
-role_arn=arn:aws:iam::231256011503:role/${ASSUME_ROLE}
-source_profile=default
-mfa_serial=arn:aws:iam::032559872243:mfa/${USERID}
 EOF
 ```
 ### Bash Version upgrade(4버전 이상이어야 함.)
